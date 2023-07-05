@@ -2,13 +2,17 @@
 
 A simple [Alfred Workflow](https://www.alfredapp.com/workflows/) to calculate required tokens to only "risk" a set dollar amount.
 
+<img style="padding: 1rem 0" width="605" alt="Screenshot" src="https://user-images.githubusercontent.com/5381156/251280792-37f863ba-bfd1-4f56-9868-7b6a33f8ff7d.gif">
+
 > Big thank you to [@rossmacarthur](https://github.com/rossmacarthur) for creating [powerpack ⚡️](https://github.com/rossmacarthur/powerpack) 👏🏽
 
-Arguments:
+It requires 3 inputs:
 
 1. Entry Price
 2. Stop-Loss Price
 3. Dollar Risk
+
+It will calculate the required tokens and store it your clipboard 📋.
 
 ## 📦 Installation
 
