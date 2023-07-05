@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>bundleid</key>
+    <string>io.derek.ahn.risk</string>
+    <key>connections</key>
+    <dict>
+      <key>07060CA4-D583-462C-A62E-6B16BB3CC169</key>
+      <array>
+        <dict>
+          <key>destinationuid</key>
+          <string>47A48DA2-38C3-47B9-981F-3DC0C17E73DF</string>
+        </dict>
+      </array>
+    </dict>
+    <key>createdby</key>
+    <string>Derek Ahn</string>
+    <key>description</key>
+    <string>Simple tool to calculate required tokens to only &quot;risk&quot; a set dollar amount</string>
+    <key>name</key>
+    <string>Risk</string>
+    <key>objects</key>
+    <array>
+      <dict>
+        <key>config</key>
+        <dict>
+          <key>clipboardtext</key>
+          <string>{query}</string>
+        </dict>
+        <key>type</key>
+        <string>alfred.workflow.output.clipboard</string>
+        <key>uid</key>
+        <string>47A48DA2-38C3-47B9-981F-3DC0C17E73DF</string>
+      </dict>
+      <dict>
+        <key>config</key>
+        <dict>
+          <key>argumenttreatemptyqueryasnil</key>
+          <true />
+          <key>argumenttype</key>
+          <integer>1</integer>
+          <key>keyword</key>
+          <string>risk</string>
+          <key>queuedelayimmediatelyinitially</key>
+          <true />
+          <key>queuemode</key>
+          <integer>2</integer>
+          <key>runningsubtext</key>
+          <string>Loading...</string>
+          <key>scriptfile</key>
+          <string>risk</string>
+          <key>title</key>
+          <string>Search</string>
+          <key>type</key>
+          <integer>8</integer>
+          <key>withspace</key>
+          <true />
+        </dict>
+        <key>type</key>
+        <string>alfred.workflow.input.scriptfilter</string>
+        <key>uid</key>
+        <string>07060CA4-D583-462C-A62E-6B16BB3CC169</string>
+      </dict>
+    </array>
+    <key>uidata</key>
+    <dict>
+      <key>07060CA4-D583-462C-A62E-6B16BB3CC169</key>
+      <dict>
+        <key>xpos</key>
+        <integer>50</integer>
+        <key>ypos</key>
+        <integer>50</integer>
+      </dict>
+      <key>47A48DA2-38C3-47B9-981F-3DC0C17E73DF</key>
+      <dict>
+        <key>xpos</key>
+        <integer>225</integer>
+        <key>ypos</key>
+        <integer>50</integer>
+      </dict>
+    </dict>
+  </dict>
+</plist>
