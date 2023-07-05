@@ -31,7 +31,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // Create an item to show in the Alfred drop down.
     let item = Item::new("entry_price stoploss_price dollar_risk")
-        .subtitle(format!("Your query was '{}'", query))
+        .subtitle(format!("calculate '{}'", query))
         .arg(token_quantity(&args).unwrap_or_default())
         .icon(Icon::with_image("icon.png"));
 
