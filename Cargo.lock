@@ -44,7 +44,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "risk"
+name = "risk-alfred-workflow"
 version = "0.1.0"
 dependencies = [
  "powerpack",
